@@ -60,6 +60,7 @@ class Operations{
 					String edept =s2.nextLine();
 					System.out.println("enter Salary: ");
 					int sal = s1.nextInt();
+					System.out,println("hi");
 					
 					c.add(new employee(eid,ename,edept,sal));
 					System.out.println(c);
