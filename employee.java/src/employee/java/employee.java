@@ -79,6 +79,7 @@ class Operations{
 							edept =s2.nextLine();
 							System.out.println("enter new salary :");
 							sal =s1.nextInt();
+							System.out.println("added");
 							li.set(new employee(empno,ename,edept,sal));
 							found =true;
 						}
